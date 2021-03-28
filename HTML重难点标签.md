@@ -5,8 +5,7 @@
 1. href
 2. target
 3. download
-4. download
-5. rel=noopener
+
 
 ### href取值
 
