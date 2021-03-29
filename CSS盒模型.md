@@ -17,6 +17,6 @@
 
 1. 父子合并用padding/border挡住
 2. 父子合并用overflow:hidden挡住
-3. 父子合并用display:flex,不知道为什么,记就完了
+3. 父子合并用display:flex,不知道为什么,记就完了。
 4. 兄弟合并是符合预期的
 5. 兄弟合并可以用inline-block消除
