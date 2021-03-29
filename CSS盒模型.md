@@ -3,6 +3,8 @@
 1. content-box 内容盒-内容就是盒子的边界
 2. border-box 边框盒-框架才是盒子的边界
 
+![盒模型](./盒模型.png)
+
 ## 公式
 
 1. content-box width=内容宽度
@@ -20,3 +22,4 @@
 3. 父子合并用display:flex,不知道为什么,记就完了。
 4. 兄弟合并是符合预期的
 5. 兄弟合并可以用inline-block消除
+
