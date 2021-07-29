@@ -4,6 +4,33 @@
 2. V-View（视图）负责所有UI界面
 3. C-Controller(控制器)负责其他
 
+````
+const m = {
+  data: {
+    n: parseInt(localStorage.getItem("n")),
+    }
+}; //存数据
+
+const v = {
+  html: `
+    <div>
+        <div class="output">
+          <span id="number">{{n}}</span>
+        </div>
+        <div class="actions">
+          <button id="add1">+1</button>
+          <button id="minus1">-1</button>
+          <button id="mul2">*2</button>
+          <button id="divide2">÷2</button>
+        </div>
+      </div>
+`   //存视图
+
+const c = {
+      //存其他内容
+      }
+````
+
 
 
 ### EventBus 有哪些 API，是做什么用的
