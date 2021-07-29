@@ -4,7 +4,15 @@
 2. V-View（视图）负责所有UI界面
 3. C-Controller(控制器)负责其他
 
+
+
 ### EventBus 有哪些 API，是做什么用的
 
 1. eventBus 可以满足最小知识原则，m 和 v 互相不知道对方的细节，但是却可以调用对方的功能,主要用于对象间通信
-2. eventBus 提供了 on、off 和 trigger 等 API，on 用于监听事件，trigger 用域触发事件
+2. eventBus 提供了 on、off 和 trigger 等 API，on 用于监听事件，trigger 用域触发事件\
+
+
+### 表驱动编程是做什么的
+
+1. 表指的是哈希表
+2. 表驱动编程可以减少重复代码，只讲重要的信息放在表里，然后利用表来编程
