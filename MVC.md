@@ -1,8 +1,8 @@
-### MVC三个对象分别做什么
+### 1.MVC三个对象分别做什么
 
-1. M-Model(数据模型)负责操作所有数据
-2. V-View（视图）负责所有UI界面
-3. C-Controller(控制器)负责其他
+(1). M-Model(数据模型)负责操作所有数据
+(2). V-View（视图）负责所有UI界面
+(3). C-Controller(控制器)负责其他
 
 ### EventBus 有哪些 API，是做什么用的
 
